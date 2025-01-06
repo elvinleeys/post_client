@@ -55,6 +55,9 @@ S.PostContent = styled.p`
     margin-top: .5rem;
     font-size: 1rem;
     color: #495057;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 `
 
 S.TagListContainer = styled.div`

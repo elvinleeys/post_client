@@ -8,6 +8,9 @@ S.Title = styled.div`
     align-items: center;
     padding: 0 20px;
     margin: 10px 0;
+    a {
+        text-decoration: none;
+    }
 `
 
 export default S;
